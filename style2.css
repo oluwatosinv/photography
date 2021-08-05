@@ -3,8 +3,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
+
 p {
   font-family: "Raleway", serif;
   color: #2c2c2c;
@@ -178,6 +179,18 @@ ul.topnav li a.active {
     clear: both;
     height: 12%;
   }
+  .left-cols > p {
+    padding: 1em;
+  }
+  .me {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+  }
+  .left-col > p {
+    padding: 1em;
+  }
   span.border {
     padding: 8px;
     line-height: 2em;
@@ -188,8 +201,8 @@ ul.topnav li a.active {
 
   .card__grid {
     grid-template-columns: 1fr 1fr;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 @media screen and (min-width: 800px) {
