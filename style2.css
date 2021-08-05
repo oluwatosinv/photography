@@ -178,6 +178,13 @@ ul.topnav li a.active {
     clear: both;
     height: 12%;
   }
+  span.border {
+    padding: 8px;
+    line-height: 2em;
+  }
+  .ptext .border {
+    padding: 11px;
+  }
 
   .card__grid {
     grid-template-columns: 1fr 1fr;
